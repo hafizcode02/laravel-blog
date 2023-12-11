@@ -23,11 +23,6 @@ Route::get('/larapage', function () {
     return view('welcome');
 });
 
-<<<<<<< HEAD
-=======
-Auth::routes();
-
->>>>>>> a909f378580ecd2abf7da068aa71bfac720fb0d2
 Route::get('/', [WebsiteController::class, 'index'])->name('index');
 Route::get('category/{slug}', [WebsiteController::class, 'category'])->name('category');
 Route::get('post/{slug}', [WebsiteController::class, 'post'])->name('post');
@@ -35,7 +30,6 @@ Route::get('page/{slug}', [WebsiteController::class, 'page'])->name('page');
 Route::get('contact', [WebsiteController::class, 'showContactForm'])->name('contact.show');
 Route::post('contact', [WebsiteController::class, 'submitContactForm'])->name('contact.submit');
 
-<<<<<<< HEAD
 Route::group(['prefix' => 'admin'], function () {
     Auth::routes();
     Route::middleware(['auth'])->group(function () {
@@ -45,13 +39,4 @@ Route::group(['prefix' => 'admin'], function () {
         Route::resource('pages', PageController::class);
         Route::resource('galeries', GaleryController::class);
     });
-=======
-
-Route::get('/admin/home', [HomeController::class, 'index']);
-Route::group(['prefix'  => 'admin', 'middleware' => 'auth'], function () {
-    Route::resource('categories', CategoryController::class);
-    Route::resource('posts', PostController::class);
-    Route::resource('pages', PageController::class);
-    Route::resource('galeries', GaleryController::class);
->>>>>>> a909f378580ecd2abf7da068aa71bfac720fb0d2
 });
