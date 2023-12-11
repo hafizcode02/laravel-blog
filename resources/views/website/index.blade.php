@@ -2,23 +2,14 @@
 
 @section('content')
 <!-- Page Header -->
-<<<<<<< HEAD
 <header class="masthead" style="background-image: url({{asset('website/img/background-palm.jpg')}})">
-=======
-<header class="masthead" style="background-image: url({{asset('website/img/home-bg.jpg')}})">
->>>>>>> a909f378580ecd2abf7da068aa71bfac720fb0d2
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <div class="site-heading">
-<<<<<<< HEAD
                     <h1>Palomade</h1>
                     <span class="subheading">Your Palm Oil Detection Partner</span>
-=======
-                    <h1>Clean Blog</h1>
-                    <span class="subheading">A Blog Theme by Start Bootstrap</span>
->>>>>>> a909f378580ecd2abf7da068aa71bfac720fb0d2
                 </div>
             </div>
         </div>
