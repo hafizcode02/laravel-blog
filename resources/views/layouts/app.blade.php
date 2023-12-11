@@ -27,11 +27,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-<<<<<<< HEAD
                 <a class="navbar-brand" href="{{ url('/admin/home') }}">
-=======
-                <a class="navbar-brand" href="{{ url('/') }}">
->>>>>>> a909f378580ecd2abf7da068aa71bfac720fb0d2
                     {{ config('app.name', 'Laravel') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
