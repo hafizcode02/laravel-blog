@@ -8,7 +8,11 @@
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <div class="page-heading">
+<<<<<<< HEAD
                     <h1>Contact Us</h1>
+=======
+                    <h1>Contact Me</h1>
+>>>>>>> a909f378580ecd2abf7da068aa71bfac720fb0d2
                     <span class="subheading">Have questions? I have answers.</span>
                 </div>
             </div>
