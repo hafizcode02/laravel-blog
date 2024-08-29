@@ -12,7 +12,9 @@ $ cd laravel-simple-cms
 $ composer install
 $ npm install
 $ npm run dev
+$ npm update
 ```
+<p>after npm install now, maybe you should meet some errors for the version, just run npm update for update the javascript package</p>
 
 ## Create and setup .env file
 ```
@@ -33,10 +35,11 @@ $ php artisan tinker
 $ factory(App\CategoryPost::class, 100)->create();
 ```
 
-## Use storate images
+## Use storage images
 ```
 $ php artisan storage:link
 ```
+<p>This is important, because without this your image can't be stored correctly</p>
 
 ## Mail setup 
 ```
